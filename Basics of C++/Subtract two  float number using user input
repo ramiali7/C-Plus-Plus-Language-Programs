@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    float num1,num2;
+    //variable declaration and initialization
+    cout<<"Enter two float numbers: ";
+    cin>>num1>>num2;//read the inputs
+    float sub=num2-num1;
+    //formula of subtraction
+    cout<<"Differences of two numbers are: "<<sub;
+    //display the result
+    
+    return 0;
+}
